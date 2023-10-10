@@ -1,0 +1,25 @@
+header > img {
+    width: 100%;
+}
+
+.itens {
+    background-color: #008950;
+    margin-top: -5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.itens > a {
+    color: white;
+    font-size: 1.4em;
+    font-weight: bolder;
+    padding: 20px;
+    text-decoration: none;
+    list-style: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.822);
+    transition-duration: 0.5s;
+}
+
+.itens > a:hover {
+    color: #DC3C28;
+}
