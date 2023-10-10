@@ -1,7 +1,11 @@
+import {BrowserRouter} from 'react-router-dom'
+
+import RoutesApp from './Routes'
+
 export default function App() {
   return (
-    <div>
-      <h1>Mamonas Assassinas</h1>
-    </div>
+    <BrowserRouter>
+      <RoutesApp/>
+    </BrowserRouter>
   )
 }
