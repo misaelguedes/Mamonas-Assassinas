@@ -1,0 +1,9 @@
+.home {
+    background-color: black;
+}
+
+.home > p {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
