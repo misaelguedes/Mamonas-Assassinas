@@ -1,0 +1,17 @@
+footer {
+    background-color: #008950;
+    padding: 10px;
+    text-align: center;
+}
+
+footer > a {
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.822);
+    transition: all 0.2s;
+}
+
+footer > a:hover {
+    font-size: 1.2em;
+}
