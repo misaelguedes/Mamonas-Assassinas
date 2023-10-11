@@ -1,0 +1,34 @@
+.erro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.erro h1 {
+    font-size: 4em;
+}
+
+.erro strong {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.erro h1, strong {
+    color: white;
+}
+
+@media (max-width: 360px) {
+    .erro img {
+        max-width: 80%;
+    }
+
+    .erro h1 {
+        font-size: 3em;
+    }
+
+    .erro strong {
+        font-size: 1em;
+    }
+}
