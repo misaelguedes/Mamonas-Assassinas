@@ -9,7 +9,7 @@ header > img {
     text-align: center;
 }
 
-.itens > a {
+.menu > a {
     color: white;
     font-size: 1.4em;
     font-weight: bolder;
@@ -20,6 +20,37 @@ header > img {
     transition-duration: 0.5s;
 }
 
-.itens > a:hover {
+.menu > a:hover {
     color: #DC3C28;
+}
+
+span {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.822);
+}
+
+#burguer {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .itens {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .menu > a {
+        display: block;
+        font-size: 1em;
+        padding: 15px;
+        border-bottom: 1px solid #DC3C28;
+    }
+
+    #burguer {
+        display: block;
+        cursor: pointer;
+    }
 }
